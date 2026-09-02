@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Request a Service | Trinity Movie Studio & IT Centre</title><link rel="stylesheet" href="style.css"></head><body>
+<header>
+<div class="navbar">
+<div class="logo">Trinity Movie Studio & IT Centre</div>
+<nav class="nav-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="request.html">Request Service</a>
+<a href="gallery.html">Gallery</a>
+<a href="location.html">Location</a>
+<a href="contact.html">Contact</a>
+</nav>
+</div>
+</header><section class="page-banner"><h1>Request a Service</h1><p>Send your request to Trinity Movie Studio & IT Centre</p></section>
+<section class="container">
+<div class="notice">Fill in the form below. When you click <strong>Send Request on WhatsApp</strong>, your request will be prepared and opened in WhatsApp.</div>
+<form class="form" onsubmit="return submitRequest(event)">
+<label for="name">Full Name *</label><input id="name" required placeholder="Enter your full name">
+<label for="phone">Phone Number *</label><input id="phone" required placeholder="e.g. 0700 000 000">
+<label for="email">Email Address</label><input id="email" type="email" placeholder="example@email.com">
+<label for="service">Service Required *</label><select id="service" required><option value="">-- Select service --</option><option>Movie & Video Production</option><option>Photography</option><option>Video Editing</option><option>Computer Services</option><option>IT Support</option><option>Printing & Digital Services</option><option>Other</option></select>
+<label for="date">Preferred Date</label><input id="date" type="date">
+<label for="message">Describe Your Request *</label><textarea id="message" required placeholder="Explain what you need and any important details"></textarea>
+<button class="btn" type="submit">Send Request on WhatsApp</button>
+<div id="confirmation" class="notice" style="display:none;margin-top:18px">Your request has been prepared. Complete the send action in WhatsApp.</div>
+</form></section><footer>
+<p><strong>Trinity Movie Studio & IT Centre</strong></p>
+<p>Kiwatule, Balintuma Zone, Kampala, Uganda</p>
+<p>Community Engagement Project &copy; 2026</p>
+</footer><script src="script.js"></script></body></html>
